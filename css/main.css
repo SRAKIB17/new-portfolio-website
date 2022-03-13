@@ -112,7 +112,7 @@ header{
     align-items: center;
 }
 .awsome {
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px inset;
     position: relative;
     align-self: center;
     width: auto;
@@ -141,4 +141,37 @@ header{
 }
 .activeAwsome{
     border-bottom: 4px solid red;
+}
+
+/* for soial link  */
+.social {
+    display: flex;
+    position: fixed;
+    left: -130px;
+    top: 50%;
+    bottom: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(104, 104, 104);
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+}
+.social:hover {
+    transition: all ease 1s;
+    left: -10px;
+}
+.bookmark {
+    padding: 10px;
+}
+.social .shere{
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px inset;
+    padding: 10px;
+}
+.shere:hover {
+    color: rgb(58, 255, 255);
+    /* background-color: rgb(37, 0, 0); */
 }

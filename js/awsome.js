@@ -1,4 +1,4 @@
-const awsome = ['fa fa-telegram', 'fa fa-laptop','fa fa-code','fa fa-television', 'fa fa-image' ]
+const awsome = ['fa fa-telegram', 'fa fa-laptop','fa fa-code','	fa fa-th-large', 'fa fa-image' ]
 awsome.forEach((i)=>{
     getID('awsome').innerHTML += `
     <div class="awsome" onclick="showAwsome(${awsome.indexOf(i)})">
