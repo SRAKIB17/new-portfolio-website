@@ -9,33 +9,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/laptop.css">
     <link rel="stylesheet" href="https://my-project-calculate.netlify.app/js/services/carousel/carousel.css">
+    <link rel="stylesheet" href="./css/mobile.css">
         
 </head>
-<body>
+<body onresize="resize()">
     <header>
-        <div><img src="./img/logo.png" alt=""></div>
-        <!-- <div id="headerNav">
-            <div class="bar">
-                <div class="bar1">
-    
-                </div>
-                <div class="bar2">
-    
-                </div>
-                <div class="bar3">
-    
-                </div>
-            </div>
-            <ul>
-                <li><a href="">link-1</a></li>
+        <div>
+            <img src="./img/logo.png" alt="">
+           
+        </div>
+        <div id="nav">
+            <ul id="navUl">
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
             </ul>
+        </div>
+        <div class="topBar">
             <ul>
-                <li><a href="">link-2</a></li>
+                <li>
+                    <button id="dark">
+                        <i class="fa fa-moon-o"></i>
+                    </button>
+                </li>
+                <li>
+                    <button id="showNav">
+                        <i class="fa fa-bars" id="bar"></i>
+                    </button>
+                    
+                </li>
             </ul>
-            <ul>
-                <li><a href="">link-3</a></li>
-            </ul>
-        </div> -->
+        </div>
+        <!-- for nav section -->
         
         
     </header>
@@ -157,5 +164,6 @@
     <script src="./js/index.js"></script>
     <script src="./js/myskill.js"></script>
     <script src="./js/awsome.js"></script>
+    <script src="./js/header.js"></script>
 </body>
 </html>

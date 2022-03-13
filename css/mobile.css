@@ -1,0 +1,12 @@
+@media only screen and (max-width:900px){
+    #nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        margin: 10px;
+        right: 0;
+        top: 80px;
+        background-color: rgb(59, 59, 59);
+        z-index: 200;
+    }
+}
