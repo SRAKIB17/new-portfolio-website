@@ -45,6 +45,9 @@ function resize(){
     }
     else{
         getID("showNav").style.display = 'block'
+        getID("nav").style.display = 'none'
+        getID("navUl").style.display = 'block'
+        close()
         
     }
 }
