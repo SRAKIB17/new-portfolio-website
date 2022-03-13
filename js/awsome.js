@@ -21,7 +21,7 @@ const showAwsome = id => {
 const fet = async () =>{
     const urlF = await fetch("./js/data/data.json");
     const res = await urlF.json();
-    console.log(res)
+   
     res.forEach(data=>{
         getID("awsomeDecorate").innerHTML += `
         <div class="awsomeBody">

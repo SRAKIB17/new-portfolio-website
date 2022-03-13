@@ -117,7 +117,19 @@ header{
     cursor: pointer;
 }
 .awsomeBody {
+    animation: awsomeBody 1s ease 5ms 1;
     display: none;
+}
+@keyframes awsomeBody {
+    from{
+        position: relative;
+        transform: scale(1.01);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 .awsomeBody img {
     width: 100%;
