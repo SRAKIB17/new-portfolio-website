@@ -38,15 +38,23 @@
         width: 100%;
         height: 400px;
     }
+    header {
+        /* margin: 5px; */
+    }
     #nav {
         display: block;
     }
-    #navUl{
+    .nav {
         display: flex;
+        align-items: center;
+    }
+    #navUl{
+        font-size: 20px;
+        display: flex;
+   
     }
     #navUl li{
         padding: 5px;
-        
     }
     #showNav{
         display: none;
